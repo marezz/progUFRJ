@@ -21,7 +21,7 @@ int main(){
     scanf("%d", &minutos);
 
     conversao(minutos, &dia);
-    printf("%d horas e %d minutos\n", dia.hora, dia.minuto);
+    printf("%d horas e %d\n", dia.hora, dia.minuto);
 
     return 0;
 }
